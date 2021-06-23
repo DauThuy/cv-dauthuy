@@ -1,0 +1,88 @@
+.wrapper {
+    width: 70%;
+    border: solid 68px #b3aeab;
+    margin: 0 auto;
+    display: flex;
+}
+
+.main-left div {
+    word-wrap: break-word;
+    position: relative;
+    padding-left: 0px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+h4 {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+h4::after {
+    display: block;
+    content: '';
+    width: 160px;
+    height: 2px;
+    background-color: #a8a9ad;
+}
+
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+.main-left {
+    background-color: #d0cecf;
+    padding: 40px;
+}
+
+.contact-sub div {
+    margin-top: -10px;
+}
+
+.contact-sub {
+    margin-bottom: 20px;
+}
+
+
+.main-left .avatar img {
+    width: 220px;
+    
+    margin-bottom: 18px;
+}
+
+.avatar {
+    margin-left: -40px;
+}
+
+
+#lastname {
+    color: #eb7b2f;
+}
+
+.main-left .languages ol {
+    list-style-type: none;
+    position: relative;
+    padding-left: 0;
+}
+
+.hobbies {
+    clear: both;
+}
+
+.main-right h4::after {
+    width: 350px;
+}
+
+.main-right {
+    padding: 50px;
+    padding-bottom:100px;
+    background-color: #ffffff;
+}
