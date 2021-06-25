@@ -1,23 +1,20 @@
 .container {
-    /* margin: 0; */
-    /* display: flex;
-    flex-wrap: wrap; */
     position: relative;
     display: grid;
     box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 }
+
 body {
-    /* padding: 200px; */
-    /* width: 70%; */
-    /* border: solid 68px #bdbcb8; */
-    /* margin: 0 auto; */
     min-height: 100vh;
     background: #bdbcb8;
 }
-.row {
+
+.row1 {
     display: flex;
     flex-wrap: wrap;
+    border: solid 70px #bdbcb8;
 }
+
 .main-left div {
     word-wrap: break-word;
     position: relative;
@@ -55,11 +52,11 @@ a {
 }
 
 .main-left {
-    /* width: 60%; */
-    /* margin: 0 auto; */
     position: relative;
     background-color: #d0cecf;
     padding: 40px;
+    /* height: 100vh; */
+    padding-bottom: 80px;
 }
 
 .contact-sub div {
@@ -70,13 +67,11 @@ a {
     margin-bottom: 20px;
 }
 
-
 .row .avatar {
     width: 30%;
     margin-bottom: 18px;
     box-sizing: border-box;
 }
-
 
 .main-left .avatar {
     width: 100%;
@@ -91,6 +86,8 @@ a {
 
 .name {
     margin: 0 auto;
+    text-transform: capitalize;
+    font-weight: bold;
 }
 
 #lastname {
@@ -112,8 +109,6 @@ a {
 }
 
 .main-right {
-    /* width: 40%; */
-    /* height: 100%; */
     position: relative;
     padding: 40px;
     padding-bottom:100px;
